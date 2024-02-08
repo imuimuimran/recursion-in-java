@@ -20,5 +20,11 @@ This repository is created for practicing and solving recursion problems in Java
 ### power of X logn
 <p>=> This program can extract the result of power of a number with logn.</p>
 
+### print string
+<p>=> This program can print string with recursive method.</p>
+
+### print string in reverse
+<p>=> This program can print string in reverse way in recursive method.</p>
+
 ### sum of n
 <p>=> This program can print the sum of first N natural numbers.</p>
