@@ -14,6 +14,15 @@ This repository is created for practicing and solving recursion problems in Java
 ### fibonacci sequence
 <p>=> This program can print fibonacci sequence of Nth number.</p>
 
+### is array sorted
+<p>=> This program can check an array is sorted or not.</p>
+
+### is array strictly increasing_02
+<p>=> This program can also give result if an array strictly increasing sorted or not</p>
+
+### is array strictly increasing
+<p>=> This program can give result if an array strictly increasing sorted or not</p>
+
 ### power of X
 <p>=> This program can extract result of power of any number.</p>
 
