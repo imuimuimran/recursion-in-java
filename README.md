@@ -8,6 +8,12 @@ This repository is created for practicing and solving recursion problems in Java
 ### basic recursion 02
 <p>=> This is also basic syntax of recursion program with increasing method in java.</p>
 
+### count path in maze
+<p>=> This program can count the total possible paths in a maze.</p>
+
+### delete specific character of string
+<p>=> By this program user can delete any specific character from given string.</p>
+
 ### factorial of N
 <p>=> This program can output of any factorial number.</p>
 
