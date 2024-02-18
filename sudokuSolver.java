@@ -1,4 +1,41 @@
 public class sudokuSolver {
+    public boolean isSafe(int[][] grid, int r, int c, int n) {
+        // the loop takes care of the clash in the row of the grid
+        for(int dis = 0; dis < grid.length; dis++) {
+            // if the inserted number already present in that row then return false
+            if(grid[r][dis] == n) {
+                return false;
+            } 
+        }
+
+        // the loop takes care of the clash in the column of the grid
+        for(int r1 = 0; r1 < grid.length; r1++) {
+            // if the inserted number already present in that row then return false
+            if(grid[r1][c] == n) {
+                return false;
+            } 
+        }
+
+        // the loop takes care of the clash in the sub-grid that is present in the grid
+        int sqt = (int)Math.sqrt(grid.length);  
+        int boxRowSt = r - r % sqt;  
+        int boxColSt = c - c % sqt; 
+
+        for(int r1 = boxRowSt; r1 < boxRowSt + sqt; r1++) {
+            for(int dis = boxColSt; dis < boxColSt +sqt; dis++) {
+                // if the inserted number already present in that row then return false
+                if(grid[r1][dis] == n) {
+                    return false;
+                } 
+            }
+            
+            
+        }
+        // if there is no clash in the grid, then it is safe and true is returned  
+        return true;
+
+    }
+
     public boolean solveSudoku(int[][] grid, int num) {
         int r = -1, c = -1;
         boolean isVacant = true;
