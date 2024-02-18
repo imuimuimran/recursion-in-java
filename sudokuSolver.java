@@ -1,4 +1,18 @@
 public class sudokuSolver {
+    public void display(int[][] grid, int n) {
+        // just display the function
+        for(int i = 0; i < n; i++) {
+            for(int dis = 0; dis < n; dis++) {
+                System.out.print(grid[i][dis]);
+                System.out.print(" ");
+            }
+            System.out.println();
+            if((i + 1) % (int)Math.sqrt(n) == 0) {
+                System.out.print("");
+            }
+        }
+    } 
+
     public static void main(String[] args) {
         // Input Grid 9 x 9
         int[][] grid = new int[][] {
