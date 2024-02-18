@@ -1,4 +1,39 @@
 public class sudokuSolver {
+    public boolean solveSudoku(int[][] grid, int num) {
+        int r = -1, c = -1;
+        boolean isVacant = true;
+        for(int i = 0; i < num; i++) {
+            for(int j = 0; j < num; j++) {
+                if(grid[i][j] == 0) {
+                    r = i;
+                    c = j;
+                    isVacant = false;
+                    break;
+                }
+            }
+            if(!isVacant) {
+                break;
+            }
+        }
+        // if there is no empty space left in the grid  
+        if(isVacant) {
+            return true;
+        }
+        // otherwise for each row do the backtracking 
+        for(int no = 1; no <= num; no++) {
+            if(isSafe(grid, r, c, no)) {
+                grid[r][c] = no;
+                if(solveSudoku(grid, num)) {
+                 // display (board, num)
+                    return true;
+                }else {
+                grid[r][c] = 0;
+                }
+            }
+        }
+        return false;
+    }
+
     public void display(int[][] grid, int n) {
         // just display the function
         for(int i = 0; i < n; i++) {
