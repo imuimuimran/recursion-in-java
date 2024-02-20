@@ -29,6 +29,15 @@ This repository is created for practicing and solving recursion problems in Java
 ### is array strictly increasing
 <p>=> This program can give result if an array strictly increasing sorted or not</p>
 
+### keypad combination
+<p>=> This program can print keypad combination of subsequence of string.</p>
+
+### modify character in string
+<p>=> This program can input string from user and place the specific character at the end of string.</p>
+
+### modify user input character in string
+<p>=> This program placed the specific characters at the beginning of string.</p>
+
 ### power of X
 <p>=> This program can extract result of power of any number.</p>
 
