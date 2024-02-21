@@ -38,11 +38,20 @@ This repository is created for practicing and solving recursion problems in Java
 ### modify user input character in string
 <p>=> This program placed the specific characters at the beginning of string.</p>
 
+### occurence first and last
+<p>=> This program can find out the first and last occurance in a word.</p>
+
+### place tiles in floor
+<p>=> This recursive program can solve the placement ways of tiles in a floor.</p>
+
 ### power of X
 <p>=> This program can extract result of power of any number.</p>
 
 ### power of X logn
 <p>=> This program can extract the result of power of a number with logn.</p>
+
+### print permutations of string
+<p>=> This program can print all possible permutations of a string.</p>
 
 ### print string
 <p>=> This program can print string with recursive method.</p>
