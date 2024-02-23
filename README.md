@@ -59,5 +59,8 @@ This repository is created for practicing and solving recursion problems in Java
 ### print string in reverse
 <p>=> This program can print string in reverse way in recursive method.</p>
 
+### print ssubsequence in string 02
+<p>=> This is an user inputted program which can extract and print substrings from a string.</p>
+
 ### sum of n
 <p>=> This program can print the sum of first N natural numbers.</p>
