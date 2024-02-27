@@ -64,3 +64,6 @@ This repository is created for practicing and solving recursion problems in Java
 
 ### sum of n
 <p>=> This program can print the sum of first N natural numbers.</p>
+
+### tower of Hanoi
+<p>=> This is a solving problem of tower of Hanoi.</p>
